@@ -391,20 +391,3 @@ Semua halaman tersambung lewat navigasi di `app/page.tsx`. Struktur final sudah 
 
 ---
 
-## Siap Konek ke Laravel?
-
-Tinggal ganti satu baris di `.env.local`:
-
-```
-NEXT_PUBLIC_API_URL=http://localhost:8000/api
-```
-
-Pastikan CORS di Laravel sudah dikonfigurasi, dan semua fetch otomatis mengarah ke API Laravel kamu.
-
----
-
-## Topik Lanjutan
-
-- **Authentication** — login, JWT token, protect halaman
-- **React Query** — library fetching yang lebih powerful dari custom hook manual
-- **Konek ke Laravel** — setup CORS di Laravel + integrasi penuh dengan Next.js
